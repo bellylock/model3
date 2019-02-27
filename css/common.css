@@ -1,0 +1,97 @@
+*{ margin: 0; padding: 0 ;color: #2e2a2a; font-family: "微软雅黑" ;}
+h1,h2,h3,h4,h5,h6{ font-weight: normal; }
+ul{list-style: none;}
+a{text-decoration: none;}
+.header a{display: inline-block;}
+input:focus{outline: 0;}
+img{ display: block; }
+.container{ width: 1200px;  overflow: hidden; margin:0 auto; }
+/*头部上不*/
+.header .headerTop{background-color: #eff2f4; }
+.header .headerTop .welcome{ overflow: hidden; }
+.header .headerTop .welcome p{ float: left; font-size: 12px; line-height: 36px; }
+.header .headerTop .welcome p span:nth-child(1){ padding-left: 17px; padding-right: 13px;font-size: 12px;}
+.header .headerTop .welcome p span:nth-child(2){ padding-left: 6px;font-size: 12px;  }
+.header .headerTop .welcome p span a{color: #d81f06; font-size: 12px;}
+.header .headerTop .welcome p{  }
+.header .headerTop .welcome ul{ float: right; }
+.header .headerTop .welcome ul li{ float: left;margin-right: 25px;  }
+.header .headerTop .welcome ul li+li+li{ margin-right: 0px; }
+.header .headerTop .welcome ul li a{font-size: 12px; color: #2e2a2a; line-height: 36px;}
+
+.header .headerMid{overflow: hidden;margin-bottom: 30px;}
+.header .headerMid .logo{ float: left;  margin-right: 145px; margin-top: 28px;}
+.header .headerMid .logo img{  }
+.header .headerMid .search{ float: left; }
+.header .search form { margin-top: 38px; }
+.header .search form input{ height: 38px; border:2px solid #a26642;   width: 454px; font-size: 18px; 
+padding: 5px 8px;}
+/*头部中部*/
+.header .headerMid .search button{cursor: pointer; background-color: #a26642;border:1px solid  #a26642; font-size: 16px; 
+color:  #fff; margin-left: -5px;   height: 52px; position: relative;top: -1px;  width: 58px;}
+.header .headerMid .search button:focus{ background-color: #a26642; outline: 0; box-shadow: 0 0 0;}
+.header .headerMid .shopBtn{ float: right; margin-top: 38px; margin-right: 30px; }
+.header .headerMid .shopBtn a{background-color: #f5f5f5; border:2px solid #e3e3e3; font-size: 16px; 
+display: inline-block;  padding-right: 9px; padding-left: 12px; padding-top: 13.5px;padding-bottom: 13.5px;}
+.header .headerMid .shopBtn img{display: inline-block; margin-right: 4px;position: relative;top: 2px; }
+.header .headerMid .shopBtn span{background: url(../img/index_bg.png) no-repeat center; font-size: 13px; 
+color: #fff;   position: relative;top: -10px; display: inline-block;  background-size: 100%;
+width: 23px;  text-align: center;}
+.header .headerMid ul {overflow: hidden;}
+.header .headerMid ul li{ float: left; margin-right: 19px; }
+.header .headerMid ul li a{font-size: 12px; color: #2e2a2a;}
+.header .headerMid ul li.active a{font-size: 12px; color: #db2c16;}
+.header .headerMid ul li:hover a{font-size: 12px; color: #db2c16;}
+/*头部底部*/
+.header .headerBottom{ overflow: hidden; }
+.header .headerBottom .menu{float: left;}
+.header .headerBottom .menu .title{cursor: pointer; background-color: #a26642 !important; text-align: center;
+line-height: 36px; width: 186px; margin-right: 20px;}
+.header .headerBottom .menu .title h4{color: #fff; font-size: 18px; font-weight: normal;}
+.header .headerBottom .nav{float: left; overflow: hidden;padding-top: 9px;}
+.header .headerBottom .nav li{float: left; margin-left: 45px;}
+.header .headerBottom  .nav li a{color: #2e2a2a; font-size: 16px;}
+.header .headerBottom  .nav li.active a{color: #d81f06; font-size: 16px;}
+.header .headerBottom  .nav li:hover a{color: #d81f06; font-size: 16px;}
+.header .headerBottom .menu .goods {position: absolute; z-index: 1; background-color: #fff;  border-top:2px solid #a26642;
+ width: 186px; padding-top: 17px; padding-bottom: 15px;}
+.header .headerBottom .menu .goods li{border-bottom: 1px solid #eeeeee; padding-left: 13px;
+padding-bottom: 10px; padding-top: 10px;}
+.header .headerBottom .menu .goods li:last-child{ border-bottom: 0; }
+.header .headerBottom .menu .goods li h5{display: inline-block;  font-weight: normal; font-size: 14px;}
+.header .headerBottom .menu .goods li h5 a{color: #2e2a2a;}
+.header .headerBottom .menu .goods li p{display: inline-block;margin-left: 12px; font-size: 12px;}
+.header .headerBottom .menu .goods li p a{color: #949393;}
+.header .logoPic{float: left; margin-top: 54px; margin-bottom: 18px;}
+.header .logoPic a{display: inline-block;}
+.header .logoPic img{display: inline-block;}
+.header .logoPic a span{font-size: 24px; color: #313030; display: inline-block; position: relative;top: -28px; font-weight: bold; }
+.header .pleaseLogin{ float: right; margin-top:120px;}
+.header .pleaseLogin span{ display: inline-block;  font-size: 14px;  }
+.header .pleaseLogin span a{color: #b3afaf !important;}
+.header .pleaseLogin p{ display: inline-block;  }
+.header .pleaseLogin p a{ font-size: 14px; color: #313030 !important; }
+
+.banner{ border-top:2px solid #a26642; }
+/*底部部分*/
+.footer .much{background-color: #f8eee5; padding-bottom: 20px; padding-top: 20px; margin-bottom: 24px;}
+.footer .much ul { overflow: hidden;}
+.footer .much ul li{ margin-right: 143px; float: left; }
+.footer .much ul li:nth-child(4){ margin-right: 0; }
+.footer .much ul li h6{display: inline-block; background: url(../img/index_bg1.png) no-repeat center; 
+text-align: center;font-size: 20px;color: #ff0000;font-weight: normal; background-size: 100%;
+ width: 44px; padding-top: 13px; padding-bottom:10px; }
+.footer .much ul li p{display: inline-block;font-size: 16px; color: #423f3f;}
+.footer .serviceList ul {overflow: hidden; border-bottom: 1px solid #b5b5b5; padding-bottom: 20px;}
+.footer .serviceList ul li{ margin-right: 170px; float: left; }
+.footer .serviceList ul li:nth-child(1){ margin-left: 50px; }
+.footer .serviceList ul li:last-child{ margin-right: 77px; }
+.footer .serviceList ul li h6{ color: #3a3737; font-size: 16px;margin-bottom: 18px; }
+.footer .serviceList ul li p{margin-bottom: 18px;}
+.footer .serviceList ul li p a{ color: #767070;  font-size: 14px;}
+.footer .Copyright{ text-align: center; margin-bottom: 37px; margin-top: 30px;}
+.footer .Copyright p{display: inline-block;color: #767070; font-size: 12px;background:url(../img/index_bg2.jpg) 
+no-repeat right;  padding-right: 0.8%; margin-right: 1.2%;}
+.footer .Copyright span{display: inline-block;color: #767070; font-size: 12px;}
+
+

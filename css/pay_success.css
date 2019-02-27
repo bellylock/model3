@@ -1,0 +1,14 @@
+.header .headerBottom .nav li{ margin-left: 41px; }
+.header{ margin-bottom: 38px; }
+.header .headerTop a span{color: #d81f06;}
+.paySuccess{overflow: hidden; border:1px solid #b3b4b5; padding-top: 204px; padding-bottom: 204px; 
+padding-left: 269px;  margin-bottom: 90px; }
+.paySuccess img{ float: left; margin-right: 50px;}
+.text{ float: left;}
+.text h2{ font-size: 29px; color: #646363; margin-top: 16px; }
+.text p{ font-size: 16px; color: #646363; margin-top: 23px; margin-bottom: 28px; }
+.text p span{ font-size: 29px;color: #db2c16; }
+.text .button{font-size: 14px; color: #646363; width: 117px;  margin-right: 42px; border:1px solid #b3b4b5; 
+display: inline-block;text-align: center; padding-top: 8px; padding-bottom: 8px;}
+.text .continue{ font-size: 14px; color: #db2c16; margin-left: 28px; display: inline-block; }
+

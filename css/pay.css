@@ -1,0 +1,57 @@
+a{display: inline-block;}
+/*.header .headerBottom .nav li{ margin-left: 41px; }
+*/.header{ border-bottom:2px solid #a26642; margin-bottom: 25px; }
+.header .headerTop a span{color: #d81f06;}
+/*物流信息*/
+.content .flow{overflow: hidden; margin-bottom: 40px; }
+.content .flow li{float: left;line-height: 32px; width: 360px; font-size: 14px;color: #2e2a2a;}
+.content .flow li.active{color: #fff;}
+.content .flow li.active span{color: #fff;}
+.content .flow li span{ margin-right: 3px; }
+.content .flow li:nth-child(1){ background: url(../img/bg_pic3.jpg)  no-repeat center; 
+background-size: 100%; padding-left: 25px;}
+.content .flow li:nth-child(2){ background: url(../img/bg_pic1.jpg)  no-repeat center; 
+background-size: 100%;  padding-left: 54px;}
+.content .flow li:nth-child(3){ background: url(../img/bg_pic4.jpg)  no-repeat center; 
+background-size: 100%; padding-left: 40px;}
+.content .pay {overflow: hidden; border:1px solid #b3b4b5;  padding-left: 44px;}
+.content .pay img{float: left; margin-right: 24px; margin-top: 14px; margin-bottom: 14px;}
+.content .pay .text{float: left; margin-bottom: 24px; margin-top: 24px;}
+.pay .text span{ font-size: 14px; color: #ff0000; margin-bottom: 10px;display: inline-block; }
+.pay .text p{ font-size: 14px; color: #797676; }
+.payWay h3{ font-size: 14px;color: #797676; margin-bottom: 13px; margin-top: 32px; }
+.payWay .way { padding-left: 23px; padding-right: 23px;border:1px solid #b3b4b5; padding-top: 12px;}
+.payWay .way h4{ font-size: 14px;color: #797676; margin-bottom: 4px; }
+.payWay .way .cyberBank{ overflow: hidden;  }
+.payWay .way .cyberBank li{cursor: pointer; float: left;border:1px solid #b3b4b5; padding-left: 7px; margin-right: 83px;margin-bottom: 19px; overflow: hidden; } 
+.payWay .way ul li img{ float: left; margin-left: 8px;}
+.payWay .way .cyberBank li:nth-child(5){ margin-right: 0; }
+.payWay .way .cyberBank li:nth-child(10){ margin-right: 0; }
+.payWay .way .cyberBank li .circle{ width: 15px; height: 15px ; border-radius: 8px; border:1px solid #b3b4b5;float: left; position: relative; top: 8px;}
+.payWay .way .cyberBank li.active .circle{border:1px solid #ff0000;}
+.payWay .way .cyberBank li.active .circle .dot{ width: 7px; height: 7px; background-color: #ff0000;
+border-radius: 3.5px;  margin-top: 4px; margin-left: 4px;}
+.payWay .way .terrace{ overflow: hidden; }
+.payWay .way .terrace li{cursor: pointer; float: left;border:1px solid #b3b4b5; padding-left: 8px; margin-right: 80px; margin-bottom: 20px; }
+.payWay .way .terrace li img{ float: left; }
+.payWay .way .terrace li:nth-child(5){ margin-right: 0; }
+.payWay .way .terrace li:nth-child(10){ margin-right: 0; }
+.payWay .way .terrace li .circle{ width: 15px; height: 15px ; border-radius: 8px; border:1px solid #b3b4b5;position: relative; top: 8px; float: left;}
+.payWay .way .terrace li.active .circle{border:1px solid #ff0000;}
+.payWay .way .terrace li.active .circle .dot{ width: 7px; height: 7px; background-color: #ff0000;
+border-radius: 3.5px;  margin-top: 4px; margin-left: 4px;}
+.payment { margin-top: 29px; border:1px solid #b3b4b5; padding-left: 24px; padding-top: 16px; padding-bottom: 16px; margin-bottom: 83px; }
+.payment .password{ width: 24px; height: 24px; border:1px solid #b3b4b5; margin-right: -6px;  text-align: center; margin-top: 5px;}
+.payment form{display: inline-block;}
+.payment .pic{overflow: hidden; margin-bottom: 21px; }
+.payment .pic img{float: left; margin-right: 35px;}
+.payment .pic p{float: left; margin-top: 7px;}
+.payment .pic h5{float: right; margin-top: 7px; margin-right: 11px;}
+.payment .pic h5 span{  font-size: 18px; color: #ff0000; }
+.payment p{font-size: 14px; color: #797676;}
+.payment p:nth-child(2){ margin-bottom: 12px; }
+.payment p img{display: inline-block; margin-right: 6px; position: relative;top: 2px; }
+.payment a{ margin-left: 7px;font-size: 14px; color: #797676; }
+.payment .btn{width: 117px; border-color: #ff0000; background-color: #ff0000; font-size: 14px; color: #fff; margin-top: 24px;display: inline-block; cursor: pointer;text-align: center; padding-top: 7px; padding-bottom: 7px;}
+
+

@@ -1,0 +1,57 @@
+.banner img{ width: 100%; }
+.banner {position: relative;}
+.banner .rollBtn{overflow: hidden; display: flex; width: 9vw; position: absolute; bottom: 17px;left: 50%; margin-left: -65px;}
+.banner .rollBtn li{ width: 18px; height: 18px; border-radius: 9px; background-color: #a26642;margin:0 12px; }
+.banner .rollBtn li.active{ background-color: #266f06; }
+
+.content .pic{overflow: hidden;}
+.content .pic li{float: left; width: 240px; position: relative;}
+.content .pic li img{float: left; width: 100%;}
+.content .pic li .bg{ background-color:#66a61f; opacity: 0.6;position: absolute; top: 0; 
+width: 240px;text-align: center; padding-bottom: 33px;}
+.content .pic li:nth-child(2) .bg{ background-color: #e39823; opacity: 0.7; }
+.content .pic li:nth-child(4) .bg{ background-color: #e39823; opacity: 0.7; }
+.content .pic li .bg p{ font-size: 24px; margin-top: 23px; margin-bottom: 20px;  color: #fff;}
+.content .pic li .bg h5{font-size: 30px; margin-bottom: 18px; color: #fff; font-weight: normal;}
+.content .pic li .bg span{ font-size: 18px;  color: #fff;}
+
+.content .productShow .title {border-bottom: 2px solid #40210c;  margin-top: 30px; padding-bottom: 14px;} 
+.content .productShow .title h3 a{ font-size: 30px; color: #40210c; }
+.content .productShow .product{overflow: hidden;}
+.content .productShow .product li{ float: left;border: 1px solid #dcdcdc; width: 220px;  margin-top: 20px;
+margin-left: 22px;}
+.content .productShow .product li:hover{border:1px solid #ff0000;}
+.content .productShow .product li img{ width: 100%; margin-bottom: 5px; }
+.content .productShow .product li:nth-child(1){ margin-left: 0px;}
+.content .productShow .product li:nth-child(6){ margin-left: 0px;}
+.content .productShow .product li p{letter-spacing: 1px; font-size: 14px;color: #6d6868; display: inline-block; padding-left: 6px; }
+.content .productShow .product li p span{color: #d81e06;font-weight: bold;}
+.content .productShow .product li p:nth-child(3){margin-bottom: 12%;}
+.content .productShow .product li .btn{ font-size: 18px; color: #fff;background-color: #a26642; margin-left: 32px;
+ padding:2px 12px;display: inline-block; margin-bottom: 3px;}
+.content .productShow .product li .btn:hover{background-color: #a26642;}
+.content .productShow .product li .btn:active{box-shadow: 0 0 0 ;}
+
+.content .productShow .activity { overflow: hidden;  }
+.content .productShow .activity .minPic{ float: left; }
+.content .productShow .activity .selected{ float: left; overflow: hidden;  width: 718px;
+	border-right:1px solid #9e9e9e;border-bottom:1px solid #9e9e9e;  margin-bottom: 15px;}
+.content .productShow .activity .selected li{float: left;border-left:1px solid #9e9e9e;
+border-bottom:1px solid #9e9e9e;}
+.content .productShow .activity .selected li+li+li+li{border-bottom:0;}
+.content .productShow .activity .selected li img{ width:100%;}
+.content .productShow .activity .selected li h5{font-size: 14px; color: #3f3b3b; margin-top: 39.5px; margin-bottom: 10px;
+margin-left: 20px;}
+.content .productShow .activity .selected li p{font-size: 12px; color: #6d6868;margin-left: 20px;}
+.minPic{border-bottom:1px solid #9e9e9e;}
+.content .productShow .recommend{ overflow: hidden; margin-top: 14px;  margin-bottom: 90px;}
+.content .productShow .recommend li{float: left;}
+.content .productShow .recommend li{ text-align: center;  position: relative;  margin-left: 17px;}
+.content .productShow .recommend li:nth-child(1){margin-left: 0; }
+.content .productShow .recommend li .bg{ text-align: center; width: 86px; height: 86px; border-radius: 43px;
+background-color: #eeeeee; position: absolute;top: 420px; left:70px; }
+.content .productShow .recommend li .bg img{padding-right: 17%;padding-left: 17%; padding-top: 12%;}
+.content .productShow .recommend li .bg h4{ font-size: 18px; color: #7e5132; margin-top: 5px;  }
+.content .productShow .recommend li .bg h4:nth-child(1){  margin-top: 14px; }
+.content .productShow .recommend li p{ font-size: 14px;color: #896d50; margin-top: 30%; }
+.content .productShow .recommend li h5{font-size: 18px; color: #71563a;}

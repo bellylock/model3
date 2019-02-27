@@ -1,0 +1,301 @@
+a{ display: inline-block; }
+/*头部*/
+.header .headerBottom .nav li{ margin-left: 41px; }
+.header{ margin-bottom: 15px; }
+.header .headerTop a span{color: #d81f06;}
+.header .headerBottom  .nav li{ margin-left:40px; }
+/*当前位置*/
+.content .location{background-color: #eeeeee;overflow: hidden; }
+.content .location ul{ float: left; overflow: hidden; margin-bottom: 10px; margin-top: 10px; }
+.content .location ul li {float: left;}
+.content .location ul li a{font-size: 14px; color: #574f4f;}
+.content .location ul li span { margin-left: 2px; margin-right: 6px;  }
+.content .location p{ float: right; margin-bottom: 10px; margin-top: 10px;}
+.content .location p a{color: #574f4f;}
+.content .location p img{ margin-left: 10px; margin-right: 10px;display: inline-block; }
+/*详情部分*/
+.content .details  { overflow: hidden; }
+/*详情动态图部分*/
+.content .details .pic{ width: 420px; float: left; overflow: hidden; }
+.content .details .pic .bigImage{ margin-top: 20px; border:1px solid #eeeeee;
+margin-bottom: 20px; width: 418px; height: 453px;}
+.content .details .pic .smallPic{overflow: hidden; margin-bottom: 20px;}
+.content .details .pic .smallPic .box{  float: left;position: relative; overflow: hidden;  margin-left: 19px; margin-right: 19px; }
+.content .details .pic .smallPic ul{overflow: hidden; position: relative; display: inline-block; }
+.content .details .pic .smallPic ul li{float: left; padding-right: 7.5px; padding-left: 7.5px; width: 81px;}
+.content .details .pic .smallPic ul li:nth-child(4){ margin-right: 0px;}
+.content .details .pic .smallPic ul li img{float: left;border:1px solid #eeeeee;}
+/*.content .details .pic .smallPic ul li:hover img{float: left;border:1px solid #ff0000; margin-bottom: 0;}*/
+.content .details .pic .smallPic ul li.active img{float: left;border:1px solid #ff0000; margin-bottom: 0;}
+.content .details .arrowLeft{float: left; width: 25px; margin-top: 26.7px;position: absolute;top: 767px; }
+.content .details .arrowRight{float: right;width: 25px; margin-top: 26.7px;position: absolute;top: 767px; left: 508px;}
+.content .details .arrowLeft img{ width: 100%;  }
+.content .details .arrowRight img{ width: 100%;  }
+.content .details .pic .follow{ float: left; font-size: 14px; color: #574f4f;}
+.content .details .pic .tip{ float: right; }
+.follow  a span{color:#574f4f !important;}
+.follow img{ margin-right: 10px; }
+.follow span img{margin-right: 15px; margin-left: 15px;display: inline-block;}
+.tip{cursor: pointer;font-size: 14px; color: #574f4f;}
+/*详情文本部分*/
+.content .details .text { width: 490px; float: left; }
+.content .details .text h3{font-size: 16px; color: #574f4f; margin-top: 40px; 
+margin-bottom: 28px; font-weight: bold; margin-left: 20px;}
+.content .details .text h4{font-size: 14px; color: #ff0000; margin-bottom: 13px; font-weight: bold;
+ margin-left: 32px;}
+.content .details .text h4 a{ font-size: 12px; color: #064bfa;border-bottom:1px solid #064bfa; 
+padding-bottom: 2px; padding-left: 4px; font-weight: normal; }
+.content .details .text h2{ font-size: 14px; color: #857f7f; display: inline-block;}
+.content .details .text h2 span{ font-size: 18px; color: #ff0000; }
+.content .details .text .notice{display: inline-block; margin-left:46px;font-size: 14px; color: #006cff; }
+.content .details .text .price h6{margin-left:0px; font-size: 14px; color: #857f7f; display: inline-block; }
+.content .details .text .price{ margin-left: 22px; background-color: #f6f7f8; padding-left: 10px;
+padding-top: 12px;}
+.content .details .text .price h2{ margin-bottom: 20px; }
+dl{ overflow: hidden; }
+dl dt{ float: left;  font-size: 14px; color: #857f7f;margin-right: 22px;}
+dl dd{  float: left; width: 230px;  }
+dl dd .btn:focus{outline: 0;}
+dl dd .btn{border: 1px solid #ff0000; color: #ff0000; background-color: transparent; padding-right: 6px;
+padding-left: 6px;font-size: 14px; }
+dl dd span{font-size: 14px;color: #574f4f;}
+.content .details .text h6 { margin-left: 24px; font-size: 14px; color: #857f7f; display: inline-block; }
+.content .details .text .price h6 span{color: #ff0000; background-color: #f6d7d8; margin-left: 8px; font-size: 12px;
+padding: 2px 5px; margin-top: 20px; display: inline-block; margin-bottom: 18px;}
+.content .details .text  .price h6 span:nth-child(1){ margin-left: 0; }
+.content .details .text h6 a{font-size: 12px; color: #857f7f; margin-left: 15px;}
+.content .details .text p{ font-size: 14px; cursor: pointer; letter-spacing: 2px;color: #857f7f; line-height: 36px; 
+ margin-left: 24px;}
+ .content .details .text p img{ position: relative; top: 8px;display: inline-block; }
+.content .details .text p span{ cursor: pointer; font-size: 12px; background-color: #eee;color: #574f4f; 
+padding: 10px 4px; border:1px solid #c9c9c9;letter-spacing: 0px; }
+.content .details .text p span:nth-child(1){ margin-left: 2px; }
+.content .details .text p span.active{border:1px solid #ff0000; }
+.content .details .text h6{ margin-bottom: 0; letter-spacing: 2px; }
+.content .details .text h6 span{font-size: 12px; color: #574f4f; margin-top: 17px; display: inline-block;}
+.content .details .text h6 p{display: inline-block;cursor: pointer; margin-right: 5px;color: #574f4f;
+letter-spacing: 0px; border:1px solid #c9c9c9; padding-left: 9px; padding-right: 9px; font-size: 12px;
+margin-top: 14px; margin-left: 7px;}
+.content .details .text h6.stages span{display: inline-block;cursor: pointer; margin-right: 5px;color: #574f4f;
+letter-spacing: 0px; border:1px solid #c9c9c9; padding-left: 9px; padding-right: 9px; font-size: 12px;
+margin-top: 14px; margin-left: 7px; line-height: 36px;}
+.content .details .text h6 p.active{border: 1px solid #ff0000;}
+.content .details .text h6.stages span.active{border: 1px solid #ff0000;}
+.content .details .text form{margin-top: 17px; padding-top: 20px;  margin-left: 24px;  border-top: 1px solid #eeeeee;
+font-size: 12px; color: #574f4f; }
+
+.content .details .text form span{ margin-right: 12px; font-size: 14px; color: #8e8989; }
+.content .details .text form .num{ border-radius: 0; width: 38px; height: 43px; display: inline-block; 
+	border:1px solid #c9c9c9; color: #574f4f; text-align: center;}
+.content .details .text form .num:focus{box-shadow: 0 0 0;}
+.content .details .text form .add:focus{ outline: 0 }
+.content .details .text form .add{cursor: pointer; width: 20px; height: 23px; margin-left: 0 ;border:1px solid #c9c9c9; 
+color: #574f4f; padding: 0; margin-right: 0; position: relative; top: -11px;left: -5px; background-color: #eeeeee;}
+.content .details .text form .minus:focus{outline: 0;}
+.content .details .text form .minus{cursor: pointer; width: 20px;  height: 23px; margin-left: 0;border:1px solid #c9c9c9;
+color: #574f4f; padding: 0; margin-right: 0; position: relative; top: 11px;left: -28px; background-color: #eeeeee;}
+.content .details .text form p{  display: inline-block; margin-left: 0;}
+.content .details .text form p span.a{ border: 0; background: #fff; }
+.content .details .text .shop:hover,
+.content .details .text .shop{border:1px solid #ff0000; background-color: #ff0000; color: #fff; 
+font-size: 24px; font-weight: bold;  padding: 14px 41px; margin-left: 24px; margin-top: 13px; margin-right:15px;}
+.content .details .text .cart:hover{color: #fff; background-color: #ff0000;}
+.content .details .text .addSuccess{position: fixed; top: 30%; right: 50%;font-size: 24px;padding:12px 25px;
+font-weight: bold;}
+.content .details .text .cart{border:1px solid #ff0000; font-weight: bold; font-size: 24px;color: #ff0000;
+padding: 14px 41px; margin-bottom: 16px; }
+/*详情看看部分*/
+.content .details .look{ overflow: hidden;margin-top: 40px; text-align: center; }
+.content .details .look .line{ width: 93px; height: 1px ; background-color: #eee;display: inline-block;position: relative;top: -4px; }
+.content .details .look p{ display: inline-block; margin-right: 6px; margin-left: 6px; font-size: 16px; 
+color: #574f4f;  }
+.content .details .look .box{  margin-bottom: 32px;  overflow: hidden; }
+.content .details .look ul{text-align: center;position: relative;}
+.look ul li span{ font-size: 12px;display: block; }
+.look ul li{ padding-bottom: 16px; padding-top: 16px;height: 182px; }
+.look ul li img{ margin-bottom: 7px; }
+.look span{margin-right: 10px; margin-left: 10px; margin-bottom: 23px;display: inline-block; 
+cursor: pointer;}
+
+.hot .title{ margin-bottom: 17px; background-color: #eeeeee; border-bottom: 1px solid #ff0000; }
+.hot .title h2{ background-color: #ff0000; display: inline-block; margin-bottom: 0; margin-top: 0;
+color: #fff; font-size: 16px; padding: 7px 21.5px; font-weight: bold; }
+.hot ul {overflow: hidden; padding-left: 13px;}
+.hot ul li{ text-align: center; float: left;  margin-right: 33px; width: 168px; }
+.hot ul li:nth-child(6){ margin-right: 0px; }
+.hot ul li img{border:1px solid #fff; width: 100%;}
+.hot ul li:hover img{border:1px solid #ff0000;}
+.hot ul li span{display: block; font-size: 14px; color: #ff0000; font-weight: bold;}
+/*旗舰店*/
+.textiles{overflow: hidden; margin-top: 40px;}
+.textiles .official{float: left; width: 216px;}
+.textiles .official .flagship{border:1px solid #eee; padding-bottom: 17px;margin-bottom: 22px;}
+.textiles .official .flagship h3{background-color: #eeeeee; line-height: 27px; font-size: 12px;
+color: #100f0f; padding-left: 8px;margin-bottom: 20px; }
+.textiles .official .flagship a img{display: inline-block; position: relative;top: 3px;}
+.textiles .official .flagship a span{  font-size: 12px; color: #777474 }
+.textiles .official .flagship a{ background-color: #eee; padding: 7px 12px 10px 12px;}
+.textiles .official .flagship a:nth-child(2){ margin-left: 10px; margin-right: 1px; }
+/*店内搜索*/
+.textiles .official .store{border:1px solid #eee; padding-bottom: 8px; text-align: center; margin-bottom: 37px;}
+.textiles .official .store h3{background-color: #eeeeee;  line-height: 27px;  font-size: 12px;
+color: #100f0f;  padding-left: 8px;margin-bottom: 14px;}
+.textiles .official .store label{margin-right: 16px;  font-size: 12px; color: #5a5656; font-weight: normal; margin-left: 8px; }
+.textiles .official .store input{height: 11px;  padding: 5px;border:1px solid #d2d2d2; margin-bottom: 10px;}
+.textiles .official .store #keyword{ width: 89px; }
+.textiles .official .store #lowest{ width: 22px;  margin-right: 4px;}
+.textiles .official .store #most{width: 22px; margin-left: 4px;}
+.textiles .official .store form span{ font-size: 12px ; color: #5a5656; }
+.textiles .official .store .search{ margin-left: 10px; border:1px solid #eeeeee; background-color: #eeeeee; font-size: 12px;
+color: #100f0f; padding: 3px 5px;}
+/*店内分类*/
+.classsify{border:1px solid #bfbfbf; margin-bottom: 20px;}
+.classsify h4{font-size: 14px; color: #524d4d; background-color: #eeeeee; line-height: 36px;
+padding-left: 8px;}
+.classsify  ul li{ padding-left: 8px; font-size: 14px; color: #807b7b; background-color: #eeeeee;
+line-height: 31px; margin-top: 2px; }
+.classsify  ul li p a{color: #807b7b; display: block;}
+.classsify ul li p span{background-color: #d2d2d2; color: #fff;  margin-right: 12px; display: inline-block;
+width: 14px; height: 13px; line-height: 13px; text-align: center;}
+/*店铺热销*/
+.selling {border:1px solid #bfbfbf; margin-bottom: 26px; }
+.selling .title{background-color: #eeeeee;margin-bottom:23px; overflow: hidden;}
+.selling h2{display: inline-block; text-align:center; float: left;
+line-height: 36px; margin-top: 0; margin-bottom: 0;background-color: #eeeeee; }
+.selling h2 a{ font-size: 14px; color: #494848;padding-right: 26px; 
+padding-left: 25px; display: block;}
+.selling h2:nth-child(1){color: #fff; background-color: #ff0000; }
+.selling h2:nth-child(1) a{color: #fff;}
+.selling ul li { text-align: center;margin-bottom: 25px; }
+.selling ul li img{/*width: 100%;*/ padding-right: 30px; padding-left: 30px; margin-bottom: 10px;}
+.selling ul li p{ font-size: 12px; color: #787070; }
+.selling ul li p span{color: #ff0000; margin-left: 26px; font-weight: bold;}
+/*店铺新品*/
+.newsProduct{border:1px solid #bfbfbf;}
+.newsProduct .title{background-color: #eeeeee;margin-bottom: 23px;}
+.newsProduct h2{display: inline-block; line-height: 36px;padding-left: 8px;}
+.newsProduct h2 a{font-size: 14px; color: #494848;display: block; }
+.newsProduct ul li { text-align: center;margin-bottom: 25px; }
+.newsProduct ul li img{ padding-right: 30px; padding-left: 30px; margin-bottom: 10px;}
+.newsProduct ul li p{ font-size: 12px; color: #787070; }
+.newsProduct ul li p span{color: #ff0000; margin-left: 26px; font-weight: bold;}
+.introduce{width: 952px; float: left; margin-left: 30px;}
+.introduce .spec { margin-bottom:35px; overflow: hidden;  background-color: #eeeeee; border-bottom:1px solid #ff0000;}
+.introduce .spec li{cursor: pointer; float: left; margin-right: 50px;   line-height:35px;font-size: 14px; color: #454545;}
+.introduce .spec li:nth-child(1){ padding-left: 15px; padding-right: 15px; }
+.introduce .spec li.active{color: #fff; background-color: #ff0000;  padding-left: 15px; padding-right: 15px; }
+.brand { overflow: hidden; }
+.brand h3{ font-size: 12px; color:#777474; float: left; }
+.brand h3 a{ color: #446cfa; }
+.brand .info{ overflow: hidden; margin-left: 42px;  margin-top: 33px; padding-bottom: 50px;  float: left;
+}
+.brand .info li{line-height: 25px; color: #777474; font-size: 12px; float: left; width: 200px; margin-right: 30px;}
+.brand .info li:nth-child(4){ margin-right: 0; }
+.brand .info li:nth-child(8){ margin-right: 0; }
+.brand  .more{float: right;display: block;padding-bottom: 8px;color: #337ab7;border-bottom: 1px dotted #eeeeee; 
+font-size: 12px; width: 908px; text-align: right;}
+.productIntroduce{padding-top: 33px;}
+.productIntroduce  img{ width: 100%; }
+.productIntroduce .title h3{ font-size: 32px;color: #000000; font-weight: bold; line-height: 80px; 
+background-color: #a6d4ad; display: inline-block; padding-right: 61px; padding-left: 61px; margin-top: 50px; margin-bottom: 14px;}
+.productIntroduce .title h3 span{ font-weight: normal;color: #000000;  }
+
+.much{ margin-top: 82px; }
+
+
+
+.textiles .assess{float: left; width: 952px; margin-left: 32px;}
+.assess .spec { margin-bottom: 36px; overflow: hidden; padding-left: 17px; background-color: #eeeeee; 
+border-bottom:1px solid #ff0000;}
+.assess .spec li{ float: left; margin-right: 64px; }
+.assess .spec li a{ font-size: 14px; color: #454545; line-height: 36px;padding-left: 10px;  padding-right: 10px;}
+.assess .spec li:hover a{color: #fff;display: block; }
+.assess .spec li+li+li a{color: #fff;display: block; }
+.assess .spec li:hover{ background-color: #ff0000;}
+.assess .spec li+li+li{ background-color: #ff0000; }
+.assess .praise{overflow: hidden;}
+.assess .praise .degree {color: #ff0000; font-size: 18px; padding-left: 30px; float: left; margin-right: 41px;}
+.assess .praise .degree h6 { font-size: 12px;color:#4f4d4d; }
+.assess .praise .degree p {color: #ff0000; font-size: 18px;}
+.assess .praise .degree p span{font-size: 36px;  font-weight: bold;color: #ff0000; }
+.assess .comment{ overflow: hidden;}
+.assess .comment li{float: left;  margin-bottom: 7px;  padding-left: 23px; padding-right: 23px; 
+text-align: center; border:1px solid #eeeeee; margin-left: 4.5px;}
+.assess .comment li p{line-height: 32px; font-size: 12px; color: #9e9090; }
+/*整体评价*/
+.wholeComment .title{overflow: hidden; margin-top: 15px; background-color: #eeeeee; margin-bottom:32px;}
+.wholeComment .title ul{ padding-left: 7px; float: left; overflow: hidden;}
+.wholeComment .title ul li{float: left; margin-right: 20px; font-size: 13px; color: #666262;
+line-height: 30px;}
+.wholeComment .title ul li:nth-child(1) p{color: #ff0000;}
+.wholeComment .title ul li:hover p{color: #ff0000;}
+.wholeComment .title ul li p{display: inline-block; cursor: pointer;}
+.wholeComment .title ul li.only{ cursor: pointer;}
+.wholeComment .title ul li.only p{ cursor: pointer; color: #666262;}
+.wholeComment .title ul li.only span.active{background: url(../img/gou1.png) no-repeat center;background-color: #ccc;}
+.wholeComment .title ul li span{cursor: pointer; display: inline-block; width: 13px; height: 15px; background-color: #ccc;}
+.wholeComment .title ul li:nth-child(7) p{ position: relative;top: -2px; margin-left: 5px;}
+.wholeComment .title h5{ float: right; font-size: 13px; color: #666262;  line-height: 30px;}
+.wholeComment .title h5 img{ margin-left: 10px;  display: inline-block;}
+
+.commentDetails ul li{overflow: hidden; margin-bottom: 50px;}
+.commentDetails ul li .pic{ width: 126px;float: left; }
+.commentDetails ul li .pic img{display: inline-block;}
+.commentDetails ul li .main{ width: 826px; float: left; border-bottom:1px solid #eeeeee; padding-bottom: 20px;}
+.commentDetails ul li .main img{ margin-right: 8px; display: inline-block;}
+.commentDetails ul li .main p{ font-size: 14px; color: #4f4d4d; margin-bottom: 23px; margin-top: 10px; }
+.commentDetails ul li img:nth-child(10){ margin-right: 484px; }
+.commentDetails ul li  span{ margin-top: 32px;display: inline-block; font-size: 12px; 
+color: #958e8e; margin-right: 30px; }
+.commentDetails ul li .report{ float: right; }
+.commentDetails ul li .report span{ font-size: 12px; color: #958e8e;margin-top: 0; margin-right: 0;
+ position: relative;top: -7px;}
+.commentDetails ul li .report span:nth-child(1){margin-right: 15px;  }
+.commentDetails ul li .report img{cursor: pointer;display: inline-block; margin-top: 21px; margin-right: 0px;}
+/*.commentDetails ul li .report span{ font-size: 12px; color: #958e8e;margin-right: 15px;  }
+.commentDetails ul li .report span:nth-child(1){ margin-right: 20px; }
+
+*/
+
+.page{overflow: hidden; float: right; margin-top: 27px; margin-bottom: 85px;}
+.page ul{ overflow: hidden;  float: left;}
+.page ul li{ float: left; }
+.page ul li a{font-size: 14px; color: #2f2b2b; background-color: #cecbcb;margin-right: 10px;
+border:1px solid #cecbcb; padding: 0px 11px; line-height: 34px; display: inline-block;}
+.page ul li.active a{color: #ec0606; background-color: transparent; border-color: transparent;}
+.page ul li:hover a{color: #ec0606; background-color: transparent; border-color: transparent;}
+.page ul li.prev a{ background-color: #fff;color: #999090; }
+.page ul li.prev a{ background-color: #fff;color: #999090;border:1px solid #cecbcb; }
+.page ul li.next:hover a{ background-color: #fff;color: #999090; border:1px solid #cecbcb;}
+.page ul li.ellipsis a{ background-color: #fff; border-color: transparent; }
+.page ul li.ellipsis:hover a{ background-color: #fff; border-color: transparent;color: #2f2b2b;  }
+.page form{ float: left;line-height: 28px; float: left; }
+.page form p{display: inline-block; font-size: 14px; color: #6a6464; margin-right: 8px; margin-left: 8px;}
+.page form p span{ font-weight: bold; }
+.page form input{ width: 30px; text-align: center; line-height: 31px; }
+.page form .botton{ background-color: #cecbcb; }
+.page form a.botton{font-size: 14px; color: #5b5858; line-height: 35px; 
+display: inline-block; padding-left: 10px; padding-right: 10px;}
+
+.proList{margin-left: 32px; float: left;width: 952px;}
+.proList ul{overflow: hidden;}
+.proList ul li{float: left; width: 217px; margin-right: 27px; margin-bottom: 47px;}
+.proList ul li:nth-child(4){ margin-right: 0; }
+.proList ul li:nth-child(8){ margin-right: 0; }
+.proList ul li:nth-child(12){ margin-right: 0; }
+.proList ul li:nth-child(16){ margin-right: 0; }
+.proList ul li:nth-child(20){ margin-right: 0; }
+.proList ul li:nth-child(24){ margin-right: 0; }
+.proList ul li:nth-child(28){ margin-right: 0; }
+.proList ul li:nth-child(32){ margin-right: 0; }
+.proList ul li:nth-child(36){ margin-right: 0; }
+.proList ul li:nth-child(40){ margin-right: 0; }
+.proList ul li a{width: 100%;}
+.proList ul li a img{width: 100%; border:1px solid #fff;margin-bottom: 18px;}
+.proList ul li:hover a img{ border:1px solid #ec0606; }
+.proList ul li span{font-size: 14px; color: #ec0606;}
+.proList ul li h6{ font-size: 14px; color: #a29b9b; line-height: 22px;}
+.proList ul li h6 span{ color: #2167a1; font-size: 14px;  }
+.proList ul li p{ font-size: 14px; color: #a29b9b;display: inline-block;  background-color: #f4efef;
+margin-right: 19px; padding: 1px 9.5px; margin-top: 11px; margin-bottom: 8px;}
+

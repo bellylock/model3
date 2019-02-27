@@ -1,0 +1,178 @@
+button:focus{outline: 0;}
+a{display: inline-block;}
+.header{ border-bottom:2px solid #a26642; margin-bottom: 16px; }
+.header .headerTop a span{color: #d81f06;}
+
+.content .assortment .textiles {overflow: hidden; margin-bottom: 10px;}
+.content .assortment .textiles>li{float: left}
+
+.content .assortment .textiles li p{font-size: 16px;color:#5a4e4e; margin-top: 3px;cursor: pointer;}
+.content .assortment .textiles li p span{ margin-left: 23px; margin-right: 8px;}
+.content .assortment .textiles li button img{display: inline-block;}
+.content .assortment .textiles li button{cursor: pointer; color: #656161; font-size: 14px; background-color: #fff; padding-top: 4px;
+	padding-bottom: 4px;border-color: #bfbfbf; border:1px solid #eeeeee; margin-left: 11px; margin-right: 4px; padding-left: 5px; padding-right: 5px;}
+.content .assortment .textiles li button span{margin-left: 7px;}
+.content .assortment .textiles li ul{ border:1px solid #eeeeee; border-top: 0 margin-top: 10px;position: absolute; 
+display: none; background-color: #fff;}
+.content .assortment .textiles>li:hover ul {display: inline-block;}
+.content .assortment .textiles>li ul:hover{display: inline-block;}
+.content .assortment .textiles li ul.homeTextiles{ left: 229px; top: 263px;width: 54px; background-color: #ccc;}
+.content .assortment .textiles li ul.set{ left: 312px; top: 263px;width: 82px;background-color: #ccc; }
+
+.content .assortment .textiles li ul li{ border-top:1px solid #eeeeee; text-align: center; }
+.content .assortment .textiles>li ul li:first-child{ border-top:0;  }
+.content .assortment .textiles li ul li a{ color: #656161; font-size: 14px;}
+.content .screen{ margin-bottom: 33px; }
+.content .screen .title {background-color: #eeeeee; padding-left: 6px;}
+.content .screen .title p{display: inline-block; font-size: 14px; color: #5f5b5b;font-weight: bold; margin-right: 56px; line-height: 46px;}
+.content .screen .title p:nth-child(1){color:#ec0606; margin-right: 14px;}
+.content .public .brand{overflow: hidden;border-bottom:1px solid #eeeeee; }
+.content .public .number{overflow: hidden;}
+.content .public .fabric{overflow: hidden;}
+.content .public .style{overflow: hidden;}
+.content .public .size{overflow: hidden;}
+.content .public h5{color: #817a7a;  font-size: 14px; float: left; width: 162px;}
+.content .public ul{/*float: left; overflow: hidden;*/ width: 920px;}
+/*.content .public ul li{float: left;}
+*/.content .public ul li a{font-size: 12px;color: #817a7a;}
+.content .public .more{font-size: 12px; color: #817a7a; margin-right: 12px;}
+.content .public button{border:1px solid #eeeeee; background-color: #fff; width: 15px; height: 17px; text-align: center;cursor: pointer;}
+.content .public button img{display: inline-block;}
+.content .public .button{float: right;font-size: 12px; color: #817a7a;border:1px solid #e5e5e5;  width: 50px; height: 17px; margin-right: 0;  cursor: pointer;}
+.content .public .button.active{float: right;font-size: 12px; color: #817a7a;border:1px solid #e5e5e5;  width: 50px; height: 17px; margin-right: 0; background-color: #eee; cursor: pointer;}
+.content .public .button span{font-size: 12px; color: #817a7a; margin-right: 5px;}
+/*品牌*/
+.content .brand .more{ margin-top: 8px; }
+.content .brand .button{ margin-top: 10px;}
+.content .brand button{ margin-top: 10px;}
+#brand:hover ul{display: inline-block;}
+#brand ul{ width: 60px;text-align: center; background-color: #ccc; position: absolute;display: none; 
+border-top: 1px solid #eee;border-left: 1px solid #eee;border-right: 1px solid #eee;}
+#brand ul li{  margin-right: 0; margin-right: 0;border-bottom: 1px solid #eee;
+border-bottom: 1px solid #eee;}
+#size:hover ul{display: inline-block;}
+#size ul{ width: 80px; text-align: center;background-color: #ccc; position: absolute;display: none;
+border-top: 1px solid #eee;border-left: 1px solid #eee;border-right: 1px solid #eee;}
+#size ul li{margin-right: 0;border-bottom: 1px solid #eee; padding-top: 5px; padding-bottom: 5px;}
+.content .brand h5{ margin-top: 10px; }
+.public .brand ul li{margin-right: 69px; padding-top: 5px; padding-bottom: 5px;}
+.public .brand ul li:nth-child(8){ margin-left: 8px; }
+.public .brand ul li:nth-child(9){ margin-left: 88px; margin-right: 15px; }
+.public .brand ul li:nth-child(10){margin-right: 20px;}
+.public .brand ul li:nth-child(11){ margin-right: 25px;}
+.public .brand ul li:nth-child(12){ margin-right: 60px; }
+.public .brand ul li:nth-child(13){ margin-left: 25px; }
+.brandClassify{float: left; overflow: hidden;}
+.brandClassify li{float: left; }
+.public ul li.active{background-color: #eee;}
+/*面料*/
+.fabric{ border-bottom:1px solid #eeeeee;  padding-top: 10px;padding-bottom: 10px;}
+.cotton{ width: 69.3%;float: left; overflow: hidden;}
+.fabric ul li{ margin-right: 52.5px;float: left; }
+/*数量*/
+.number{ border-bottom:1px solid #eeeeee;  padding-top: 10px;padding-bottom: 10px;}
+.amount{  width: 69.3%;float: left; overflow: hidden;}
+.number ul li{ margin-right: 55.5px; float: left;}
+/*风格*/
+.style{ border-bottom:1px solid #eeeeee;  padding-top: 10px;padding-bottom: 10px;}
+.manner{ width: 69.3%;float: left; overflow: hidden;}
+.style ul li{ margin-right: 53.5px; float: left;}
+/*尺寸*/
+.size{ border-bottom:1px solid #eeeeee; padding-top: 10px;padding-bottom: 10px;}
+.dimension{  width: 69.3%;float: left; overflow: hidden;}
+.size .dimension li{ margin-right: 52px; float: left;}
+/*精选*/
+.choice{ border:1px solid #e5e5e5; width: 220px;  float: left;}
+.choice h5{ margin-top: 20px;overflow: hidden; }
+.choice h5 p a{ font-size: 16px; color: #776d6d; float: left;}
+.choice h5 p{ font-size: 16px; color: #776d6d; display: inline-block;  margin-left: 12px; }
+.choice h5 span{ font-size: 16px;color: #918888;  margin-right: 12px;}
+.choice h5 a{ float: right;}
+.choice .choicePic li:last-child{ margin-bottom: 38px; }
+.choice .choicePic li { margin-top: 38px; width: 194px; margin-left: 13px; }
+.choice .choicePic li img{width: 100%;}
+.choice .choicePic li p{font-size: 14px; color: #918888;}
+.choice .choicePic li p:nth-child(2){ margin-top: 14px; margin-bottom: 18px; }
+.choice .choicePic li span{font-size: 14px; color: #ec0606;}
+.choice .choicePic li p span{margin-left: 0;color: #1f3680; margin-top: 9px; display: inline-block;}
+/*排序*/
+.shop_list { width: 958px; float: left; margin-left: 20px; }
+.shop_list .sort {overflow: hidden;  padding:4px 2px 4px 7px;background-color: #eeeeee; border:1px solid #dcdcdc;}
+.shop_list .sort ul {overflow: hidden; float: left; margin-right: 275px;}
+.shop_list .sort ul li{float: left; background-color: #fff; margin-right: 3px; font-size: 14px; color: #6f6d6d;
+padding: 8px 18px;border:1px solid #dcdcdc;cursor: pointer;}
+.shop_list .sort ul li:nth-child(1){  background-color: #ff0000;color: #fff;  margin-right: 0;}
+.shop_list .sort h6{font-size: 14px;display: inline-block;float: left; margin-top: 10px;  margin-right: 28px; }
+.shop_list .sort h6 p{display: inline-block;color: #ec0606; }
+.shop_list .sort span{border:1px solid #dcdcdc; background-color: #fff;  width: 92px; display: inline-block;
+text-align: center; padding-top: 7px; padding-bottom: 7px;cursor: pointer;}
+.shop_list .sort span:nth-child(3){ background-color: transparent; }
+/*配送服务*/
+.service{border:1px solid #f8f4f4; background-color: #f9fafa; padding-top: 5px; padding-bottom: 3px;
+margin-bottom: 35px; padding-left: 7px; overflow: hidden;}
+.service h6{  font-size: 14px; color: #8e8787;margin-right: 19px; float: left; margin-top: 10px;}
+.service ul{ float: left;margin-right: 66px;position: relative;top: 0px;}
+.service ul li{ float: left; margin-right: 30px; font-size: 14px; color: #2d2a2a;cursor: pointer; }
+.service select{background-color: #fff;border:1px solid #dcdcdc;  padding:8.5px 8px; width: 117px;
+margin-right: 6px; cursor: pointer; float: left;}
+.service select:focus{ outline: 0; }
+.service ul li.active frame{background: url(../img/gou.png) no-repeat center;}
+.frame{ width: 23px; height: 22px; border:1px solid #dcdcdc; display: inline-block;  position: relative;top: 5px; background-color: #fff;}
+.service  input:focus{ outline: 0;  }
+.service  input{ background-color: #eeeeee; border:1px solid #dcdcdc;  padding:3px 8px;float: left; margin-top: 7px;
+width: 138px; color: #cac3c1; font-size: 12px;}
+.service  form{ float: right; }
+.service .btn:focus{ box-shadow: 0 0 0; outline: 0; background-color: #eeeeee; border:1px solid #dcdcdc;
+color: #575656;}
+.service .btn{background-color: #eeeeee; border:1px solid #dcdcdc; padding:3px 3px; float: left; margin-top: 7px;
+font-size: 12px; color: #575656; margin-left: 8px;}
+.service .btn:active{ box-shadow: 0 0 0 ; }
+
+
+
+
+.shop_list  .proList ul{overflow: hidden;}
+.shop_list  .proList ul li{float: left; width: 219px; margin-right: 27px; margin-bottom: 47px;}
+.shop_list  .proList ul li:nth-child(4){ margin-right: 0; }
+.shop_list  .proList ul li:nth-child(8){ margin-right: 0; }
+.shop_list  .proList ul li:nth-child(12){ margin-right: 0; }
+.shop_list  .proList ul li:nth-child(16){ margin-right: 0; }
+.shop_list  .proList ul li:nth-child(20){ margin-right: 0; }
+.shop_list  .proList ul li:nth-child(24){ margin-right: 0; }
+.shop_list  .proList ul li:nth-child(28){ margin-right: 0; }
+.shop_list  .proList ul li:nth-child(32){ margin-right: 0; }
+.shop_list  .proList ul li:nth-child(36){ margin-right: 0; }
+.shop_list  .proList ul li:nth-child(40){ margin-right: 0; }
+.shop_list  .proList ul li a{width: 100%;}
+.shop_list  .proList ul li a img{width: 100%; border:1px solid #fff;margin-bottom: 18px;}
+.shop_list  .proList ul li:hover a img{ border:1px solid #ec0606; }
+.proList ul li span{font-size: 14px; color: #ec0606;}
+.proList ul li h6{ font-size: 14px; color: #a29b9b; line-height: 22px;}
+.proList ul li h6 span{ color: #2167a1; font-size: 14px;  }
+.proList ul li p{ font-size: 14px; color: #a29b9b;display: inline-block;  background-color: #f4efef;
+margin-right: 19px; padding: 1px 9.5px; margin-top: 11px; margin-bottom: 8px;}
+
+.page{overflow: hidden; float: right; margin-top: 15px; margin-bottom: 84px;}
+.page ul{ overflow: hidden;  float: left;}
+.page ul li{ float: left; }
+.page ul li a{font-size: 14px; color: #2f2b2b; background-color: #cecbcb;margin-right: 10px;
+border:1px solid #cecbcb; padding: 0px 11px; line-height: 34px; display: inline-block;}
+.page ul li.active a{color: #ec0606; background-color: transparent; border-color: transparent;}
+.page ul li:hover a{color: #ec0606; background-color: transparent; border-color: transparent;}
+.page ul li.prev a{ background-color: #fff;color: #999090; }
+.page ul li.prev a{ background-color: #fff;color: #999090;border:1px solid #cecbcb; }
+.page ul li.next:hover a{ background-color: #fff;color: #999090; border:1px solid #cecbcb;}
+.page ul li.ellipsis a{ background-color: #fff; border-color: transparent; }
+.page ul li.ellipsis:hover a{ background-color: #fff; border-color: transparent;color: #2f2b2b;  }
+.page form{ float: left;line-height: 28px; float: left; }
+.page form p{display: inline-block; font-size: 14px; color: #6a6464; margin-right: 8px; margin-left: 8px;}
+.page form p span{ font-weight: bold; }
+.page form input{ width: 30px; text-align: center; line-height: 31px; }
+.page form .botton{ background-color: #cecbcb; }
+.page form a.botton{font-size: 14px; color: #5b5858; line-height: 35px; 
+display: inline-block; padding-left: 10px; padding-right: 10px;}
+#brand{float: left;}
+#size{float: left;}
+.content .public ul.moreShop { width: 68px;position: absolute;top: 0px; }
+.content .public ul.moreShop li{ margin-right: 0; }
+.service ul li.active .frame{ background: url(../img/gou.png) no-repeat center;  background-color: #fff;}

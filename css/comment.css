@@ -1,0 +1,27 @@
+/*.header .headerBottom .nav li{ margin-left: 41px; }
+*/.header{ border-bottom:2px solid #a26642; margin-bottom: 38px; }
+.header .headerTop a span{color: #d81f06;}
+/*图片部分*/
+.content .comment{overflow: hidden; border:1px solid #b5b5b5; margin-top: 38px; padding-bottom: 70px; 
+margin-bottom: 86px; padding-top: 70px;}
+.content .comment .pic{float: left;padding-left: 55px;  width: 412px; margin-right: 120px;}
+.content .comment .pic img{  margin-bottom: 36px; border:1px solid #b5b5b5; padding-top: 53px; width: 100%; 
+padding-bottom: 85px; }
+.content .pic p{font-size: 14px; color: #574f4f; margin-left:70px; }
+.content .comment .msg{float: left; width: 550px;}
+.content textarea{border:1px solid #b5b5b5; height: 411px;  resize: none; width: 100%;font-size: 14px; 
+color: #b5b5b5; padding: 8px; margin-bottom: 40px;}
+.content textarea:focus{border-color: #b5b5b5; box-shadow: 0 0 0 ; outline: 0;}
+.content .comment .msg a{border:1px solid #b5b5b5; font-size: 16px; color: #574f4f; padding: 18px 66px;
+display: inline-block;}
+
+.content h6{ font-size: 14px; color: #d81f06;  margin-top: 22px; }
+.content ul li{ margin-top: 21px; }
+.content ul li p{ display: inline-block; font-size: 14px;color: #574f4f; margin-right: 20px; }
+.content ul li img{cursor: pointer; margin-right: 1%; display: inline-block; position: relative;top: 4px; }
+.content ul li span{font-size: 14px;color: #b5b5b5; margin-left: 4%;}
+.content button.btn{border-color: #ff0000; background-color: #ff0000; margin-top: 23px; 
+color: #fff; font-weight: bold; border: 0; padding: 22px 75px;}
+.content button.btn:hover{ cursor: pointer; border-color: #ff0000; background-color: #ff0000; color: #fff;}
+.content button.btn:focus{border-color: #ff0000; background-color: #ff0000; outline: 0;color: #fff;}
+

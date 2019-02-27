@@ -1,0 +1,89 @@
+a{display: inline-block;}
+/*.header .headerBottom .nav li{ margin-left: 41px; }
+*/.header{ border-bottom:2px solid #a26642; margin-bottom: 25px; }
+.header .headerTop a span{color: #d81f06;}
+/*物流信息*/
+.content .flow{overflow: hidden; margin-bottom: 40px; }
+.content .flow li{float: left;line-height: 32px; width: 360px; font-size: 14px;color: #2e2a2a;}
+.content .flow li.active{color: #fff;}
+.content .flow li.active span{color: #fff;}
+.content .flow li span{ margin-right: 3px; }
+.content .flow li:nth-child(1){ background: url(../img/bg_pic6.jpg)  no-repeat center; 
+background-size: 100%; padding-left: 25px;}
+.content .flow li:nth-child(2){ background: url(../img/bg_pic1.jpg)  no-repeat center; 
+background-size: 100%;  padding-left: 54px;}
+.content .flow li:nth-child(3){ background: url(../img/bg_pic2.jpg)  no-repeat center; 
+background-size: 100%; padding-left: 40px;}
+.content .title h3{font-size: 16px; color: #db2c16;  margin-left: 24px; margin-bottom: -20px;}
+.content .title h3 span{font-size: 16px; color: #db2c16; }
+table{border-collapse: separate; border-spacing:0 30px; width: 100%;}
+table thead tr:nth-child(1){ background-color: #eeeeee;}
+table thead tr:nth-child(1) th{border-bottom:1px solid #d8d4d3;border-top:1px solid #d8d4d3;}
+table thead tr th{font-size: 14px;color :#797676;font-weight: normal; text-align: left; 
+line-height: 29px;}
+table thead tr:nth-child(2) th.mall{border:0;}
+table thead tr th:nth-child(1){ padding-left: 10px; border-left:1px solid #d8d4d3; cursor: pointer;}
+table thead tr th:nth-child(3){ padding-left: 18px; }
+table thead tr th:nth-child(4){ padding-left: 30px; }
+table thead tr th:nth-child(5){ padding-left: 5px; }
+table thead tr th:nth-child(6){ border-right:1px solid #d8d4d3;}
+table thead tr th .pane{ margin-right: 10px; width: 13px; height: 13px; border:2px solid #aaaaaa; 
+display: inline-block; position: relative;top: 2px;}
+table thead tr th .pane.active{background: url(../img/gou.png) no-repeat center;}
+table thead tr th .case{ margin-left: 1px; margin-right: 10px; width: 13px; height: 13px; border:2px solid #aaaaaa;
+display: inline-block; position: relative;top: 2px; }
+table thead tr th .case.active{ background: url(../img/gou.png) no-repeat center;}
+table tbody tr.active{background-color: #f4d1bc;}
+table tbody tr td .check.active{ background: url(../img/gou.png) no-repeat center; }
+table tbody tr td {border-bottom:1px solid #c3c4c5;border-top:1px solid #c3c4c5;}
+table tbody tr td .check{cursor: pointer; margin-left: 10px; margin-right: 12px; width: 13px; height: 13px; 
+border:2px solid #aaaaaa; display: inline-block; position: relative; top: -186px;}
+table tbody tr td img{ background-color: #fff; padding-bottom: 34px; padding-top: 34px; margin-top: 18px; 
+ margin-bottom: 18px; margin-right: 22px; width: 118px;}
+table tbody tr td:nth-child(1){ border-left:1px solid #c3c4c5;
+border-left:1px solid #c3c4c5;}
+table tbody tr td:nth-child(2){ width:550px;}
+table tbody tr td:nth-child(3){ width:123px;}
+table tbody tr td:nth-child(4){ width:139px;font-size: 14px; color: #2e2a2a; padding-left: 10px;}
+table tbody tr td:nth-child(5){ width:134px; }
+table tbody tr td:nth-child(6){ width:58px;border-right:1px solid #c3c4c5;} 
+table tbody tr td .house{cursor: pointer;}
+table tbody tr td .delete{cursor: pointer;}
+table tbody tr td .text{ width: 269px;  float: left;}
+table tbody tr td .nature{ width: 194px; float: left; padding-left: 24px; }
+table tbody tr td .nature span{display: block;}
+table tbody tr td .text h5{ font-size: 14px;  line-height: 22px; margin-bottom: 25px; }
+table tbody tr td .text h5 a{color: #2e2a2a;}
+table tbody tr td .text h6{ font-size: 14px; color: #837d7b; }
+table tbody tr td .text h6 span{ font-size: 14px; color: #fff; background-color: #837d7b; padding: 0 5px; 
+margin-right: 15px ;}
+table tbody tr td span{ font-size: 12px; color: #797676;}
+table tbody tr td p  .totalPrice{font-size: 16px; color: #d81e06;}
+table tbody tr td:nth-child(5) p{font-size: 16px; color: #d81e06;}
+table tbody tr td p  span.price{font-size: 14px; color: #2e2a2a;}
+table tbody tr td input{text-align: center;  width: 20px;float: left; border:1px solid #959595; padding: 1px 8px;}
+table tbody tr td input:focus{outline: 0;}
+table tbody tr td button{ cursor: pointer; float: left; border:0; background-color: #959595; width: 22px; height: 21px;}
+table tbody tr td button:focus{outline: 0; }
+table tbody tr td p  span.price{font-size: 14px; color: #2e2a2a;}
+/*结算*/
+
+.content .balance{border:1px solid #c3c4c5; background-color: #eeeeee; overflow: hidden; margin-top: 20px; margin-bottom: 96px;}
+.content .balance .allCheck{ float: left;cursor: pointer;font-size: 14px; color: #837d7b;line-height: 28px; 
+ margin-right: 117px;}
+.content .balance .allDelete{ float: left;font-size: 14px; color: #837d7b;display: inline-block;  margin-right: 464px;}
+.content .balance .btn{ float: right; }
+.content .balance .total{float: left;}
+.content .balance .total p{ font-size: 14px; color: #837d7b;line-height: 27px;}
+.content .balance .total p span{ font-size: 14px; color: #837d7b;}
+.content .balance .allCheck .pane{width: 13px; height: 13px; border:2px solid #aaaaaa; 
+float: left; margin-right: 10px; margin-left: 10px;  position: relative;top: 5.5px;}
+.content .balance .allCheck .pane.active{background: url(../img/gou.png) no-repeat center;}
+.content .balance .total .yuan{font-size: 18px; color: #d81e06;}
+.content .balance .total #totalPrice{font-size: 18px; color: #d81e06;}
+.content .balance .allDelete{ float: left;font-size: 14px; color: #837d7b; line-height: 28px;}
+.content .balance .btn{padding-top: 5px;  padding-bottom: 4px; font-size: 14px;color: #fff; background-color: #ff0000;
+border-color: #ff0000; border-radius: 0; width: 78px;text-align: center; }
+.content .balance .allCheck.active .pane{background:url(../img/gou.png) no-repeat center;}
+
+.tip p a{ font-size: 20px; color: #ff0000; }

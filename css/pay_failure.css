@@ -1,0 +1,12 @@
+.header .headerBottom .nav li{ margin-left: 41px; }
+.header{ margin-bottom: 38px; }
+.header .headerTop a span{color: #d81f06;}
+.payFailure{overflow: hidden; border:1px solid #b3b4b5; padding-top: 170px; padding-bottom: 170px;  
+padding-left: 259px;  margin-bottom: 90px;}
+.payFailure img{ float: left; }
+.payFailure .text{ float: left;  margin-left: 46px;}
+.text h2{ font-size: 30px; color: #646363; margin-top: 43px; }
+.text p{ font-size: 16px; color: #646363; margin-top: 36px; margin-bottom: 30px; }
+.text .button{font-size: 14px; color: #646363; width: 116px;  margin-right: 36px; border:1px solid #b3b4b5; 
+display: inline-block; text-align: center; padding-bottom: 7px; padding-top: 7px;}
+.text .continue{ font-size: 14px; color: #db2c16; margin-left: 42px; display: inline-block; }

@@ -1,0 +1,23 @@
+.content{text-align: center;background: url(../img/register_bg.jpg) no-repeat center; background-size: 100% 100%;}
+.register{ box-shadow: 0px 3px 6px #999; width: 774px;display: inline-block;background: rgba(255,255,255,0.5);  padding-top: 52px; margin-top: 52px;  margin-bottom: 72px;}
+.register form label{ width: 125px; display: inline-block; margin-left: 40px; border-left: 1px solid #aaaaaa;border-top: 1px solid #aaaaaa;font-size: 14px; border-collapse: #313030;margin-bottom: 14px;
+border-bottom: 1px solid #aaaaaa; text-align: left; padding-left: 19px; line-height: 58px;background: rgba(255,255,255,0.4);}
+.register form input{ width: 400px; border: 1px solid #aaaaaa; border-left: 0;line-height: 58px; margin-left: -4.74px; background: rgba(255,255,255,0.4); font-size: 14px; color: #898c8d; margin-right: 30px;}
+.register form input#code{ width: 214px; margin-right: 0; }
+.register form label:nth-child(11){ margin-left: 0; }
+.register form .code label{ margin-left: -144px; }
+
+.kuang{ width: 19px; height: 21px;border:1px solid #aaa; display: inline-block; margin-right: 15px; }
+.check{ padding-left: 120px; cursor: pointer; text-align: left; margin-top: 44px;}
+.check p{display: inline-block;font-size: 12px; color: #313030; position: relative;top: -6px;
+margin-bottom: 20px;}
+.check span{display: inline-block;font-size: 12px; color: #313030; position: relative;top: -6px;
+margin-bottom: 20px;color: #0491f4;}
+.check span a{color: #0491f4;}
+.btn{cursor: pointer; margin-left: 12px; width: 545px; background-color: #ff0000;color: #fff; border: 1px solid #ff0000;
+font-size: 18px; font-weight: bold; line-height: 60px;  margin-bottom: 52px;
+}
+.btn:focus{outline: 0;}
+.code{  margin-left:155px; margin-top: -25px; }
+#vCode{height: 60px; width: 180px; display: inline-block; margin-left: 5px; position: relative;top: 24px;}
+.kuang.active{background: url(../img/gou1.png) no-repeat center;}
